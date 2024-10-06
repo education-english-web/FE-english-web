@@ -1,0 +1,192 @@
+
+.slick-prev {
+    left: -10 !important;
+    z-index: 1000 !important;
+    height: 48px !important;
+    width: 44px !important;
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+
+    &:hover {
+        background: #d7d7d7;
+    }
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: FontAweSome !important;
+    color: rgb(180, 30, 30) !important;
+
+}
+
+.slick-next {
+    right: -10 !important;
+    z-index: 1000 !important;
+    height: 48px !important;
+    width: 44px !important;
+    background: #fff !important;
+    border: 2px solid #d7d7d7 !important;
+
+    &:hover {
+        background: #d7d7d7;
+    }
+}
+
+.section-share {
+    &.section-specialty {
+        background: #fdfcfc;
+    }
+    &.section-outstanding-doctor{
+        background: #fdfcfc;
+    }
+    &.section-about{
+        height: 500px !important;
+    }
+
+    .section-body {
+        .section-customize {
+            .bg-image {
+                &.section-specialty {
+                    background-image: url('../../assets/specialty/co-xuong-khop.png');
+                    height: 150px;
+                    width: 278px;
+                    margin-left: 5px;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-color: #eee;
+                }
+                &.section-medical-facility {
+                    background: url('../../assets/medical-facility/benh-vien.jpg');
+                    height: 150px;
+                    width: 278px;
+                    margin-left: 5px;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-color: #eee;
+                }
+                &.section-outstanding-doctor{
+                    background: url('../../assets/doctor/doctor-character.avif');
+                    height: 150px;
+                    width: 145px;
+                    margin-left: 10px;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-color: #eee;
+                    border-radius: 75px;                   
+                }
+                &.section-handbook{
+                    background: url('../../assets/handbook/cam-nang.png');
+                    height: 150px;
+                    width: 290px;
+                    margin-left: 5px;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-color: #eee;
+                }
+                    .outstanding-doctor{
+                        margin-right: 50px;
+                    }
+                
+            }
+        }
+    }
+}
+
+
+.section-share {
+    height: 330px;
+
+
+    .section-container {
+        margin: 0 100px;
+        display: flex;
+        flex-direction: column;
+
+        .section-header {
+            height: 50px;
+            padding-bottom: 20px;
+            margin-top: 20px;
+            margin-left: 10px;
+
+            .title-section {
+                font-size: 22px;
+                font-weight: 600;
+            }
+
+            .btn-section {
+                margin-right: 10px;
+                text-transform: uppercase;
+                float: right;
+                border: none;
+                border-radius: 15px;
+                outline: none;
+                display: block;
+                padding: 10px 15px;
+                background: #bebebe;
+                cursor: pointer;
+
+                &:hover {
+                    color: #fff;
+                    background:rgb(0, 255, 200);
+                }
+
+            }
+
+        }
+
+
+    }
+}
+
+.section-outstanding-doctor{
+    .outer-bg{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .section-customize{
+        padding: 5px;
+        .customize-border{
+            padding: 20px;
+        }
+    }
+}
+
+.home-footer{
+    margin-left: 20px;
+    padding-top: 5px;
+}
+.section-about{
+    padding: 0 100px;
+    border-top: 1px solid #fcfcfc;
+    border-bottom: 1px solid #fcfcfc;
+    .section-about-header{
+        padding: 10px;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .section-about-content{
+        display: flex;
+        gap: 15px;
+        width: 100%;
+
+        .content-left{
+            width: 60%;
+        }
+        .content-right{
+            width: 40%;
+            margin-bottom: 5px;
+            margin-left: 5px;
+
+            p{
+                text-align: justify;
+                font-style: italic;
+                padding-top: 15px;
+            }
+        }
+    }
+}
