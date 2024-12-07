@@ -2,8 +2,8 @@
 
 import React, { useState } from 'react'
 import Image from 'next/image'
-import timerBg from '@/assets/img/timer.jpg'
-import CountDown from '@/components/timer/timer'
+import timerBg from '@/src/assets/img/timer.jpg'
+import CountDown from '@/src/components/timer/timer'
 
 export default function Home() {
     const [email, setEmail] = useState('')
